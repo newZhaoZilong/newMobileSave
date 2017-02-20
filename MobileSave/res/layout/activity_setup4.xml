@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        style="@style/MobileSaveTheme"
+        android:text="4 恭喜您,设置完成" />
+
+    <CheckBox 
+        android:id="@+id/cb_open_security"
+        android:text="防盗保护已开启"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"/>
+    <!-- 让内部点的水平居中 orientation默认是horizontal -->
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:drawable/presence_invisible" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:drawable/presence_invisible" />
+       
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:drawable/presence_invisible" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:drawable/presence_online" />
+        
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@drawable/phone" />
+        <!-- 图片选择器,在选择和未选中的过程中,切换展示图片 -->
+
+        <Button style="@style/nextBt" 
+            android:text="设置完成"/>
+
+        <Button style="@style/preBt" 
+            android:text="上一步"/>
+    </RelativeLayout>
+
+</LinearLayout>
