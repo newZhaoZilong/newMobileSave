@@ -10,6 +10,8 @@ public class ConstantValue {
 	public static final String OPEN_SECURITY = "open_security";
 //	public static final String OPEN_ADDRESS = "open_address";
 	public static final String TOAST_STYLE = "toast_style";
+	public static final String LOCATION_X = "location_x";
+	public static final String LOCATION_Y = "location_y";
 
 	
 

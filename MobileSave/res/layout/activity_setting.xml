@@ -33,6 +33,14 @@
     android:id="@+id/scv_location"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"/>
+<com.shange.mobilesave.view.SettingItemView
+    xmlns:mobilesafe="http://schemas.android.com/apk/res/com.shange.mobilesave"
+    android:id="@+id/siv_blackNumber"
+    mobilesafe:destitle="开启屏蔽黑名单服务"
+    mobilesafe:deson="屏蔽黑名单已开启"
+    mobilesafe:desoff="屏蔽黑名单已关闭"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"/>
     <!-- <RelativeLayout
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"

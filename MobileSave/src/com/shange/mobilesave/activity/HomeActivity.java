@@ -86,6 +86,22 @@ public class HomeActivity extends Activity {
 				case 0:
 					showDialog();
 					break;
+				
+				case 1:
+					//跳转到通信卫士模块
+					startActivity(new Intent(getApplicationContext(),BlackNumberActivity.class));
+					break;
+				case 2:
+					Intent intent2 = new Intent(getApplicationContext(), SoftManagerActivity.class);
+					//开启界面
+					startActivity(intent2);
+					break;
+				case 3:
+					Intent intent3 = new Intent(getApplicationContext(), ProcessManagerActivity.class);
+					//开启界面
+					startActivity(intent3);
+					break;
+					
 				case 7:
 					//当点击设置中心时打开一个界面
 					Intent intent7 = new Intent(getApplicationContext(), AToolActivity.class);

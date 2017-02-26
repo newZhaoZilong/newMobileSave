@@ -2,6 +2,7 @@ package com.shange.mobilesave.activity;
 
 import com.shange.mobilesave.R;
 import com.shange.mobilesave.service.AddressService;
+import com.shange.mobilesave.service.BlackNumberService;
 import com.shange.mobilesave.utils.ConstantValue;
 import com.shange.mobilesave.utils.ServiceUtil;
 import com.shange.mobilesave.utils.SpUtil;
@@ -39,6 +40,43 @@ public class SettingActivity extends Activity {
 		initToastStyle();
 		//吐司界面
 		initLocation();
+		//开启黑名单服务
+		initBlackNumber();
+	}
+
+	/**
+	 * 开启黑名单服务
+	 */
+	private void initBlackNumber() {
+		//找到控件,控件名就是类名
+		final SettingItemView siv_blackNumber = (SettingItemView) findViewById(R.id.siv_blackNumber);
+		//获取存储的节点值
+		boolean isrunning = ServiceUtil.isRunning(this, "com.shange.mobilesave.service.BlackNumberService");
+		//是否选中,根据上一次存储的结果去做决定
+		siv_blackNumber.setChecked(isrunning);//代码的复用性真是妙不可言
+		//设置该控件的点击事件
+		siv_blackNumber.setOnClickListener(new OnClickListener() {
+			
+			@Override
+			public void onClick(View v) {
+				// 当点击时调用这个方法
+				//首先获取当前状态
+				boolean isCheck = siv_blackNumber.isCheck();//上边刚设置,现在就去
+				//点击一次,转变一次状态
+				siv_blackNumber.setChecked(!isCheck);
+				if(!isCheck){//为ture开启服务
+					//开启服务
+					Intent intent = new Intent(getApplicationContext(),BlackNumberService.class);
+					startService(intent);
+				}else{
+					//关闭服务
+					Intent intent = new Intent(getApplicationContext(),BlackNumberService.class);
+					stopService(intent);//
+				}
+			}
+		});
+		
+		
 	}
 
 	private void initLocation() {
@@ -46,6 +84,7 @@ public class SettingActivity extends Activity {
 		SettingClickView scv_location = (SettingClickView) findViewById(R.id.scv_location);
 		//设置标题
 		scv_location.setTitle("归属地提示框的位置");
+		scv_location.setDes("设置归属地提示框的位置");
 		
 		scv_location.setOnClickListener(new OnClickListener() {
 			
@@ -141,7 +180,7 @@ public class SettingActivity extends Activity {
 						}else{
 							//关闭服务
 							Intent intent = new Intent(getApplicationContext(),AddressService.class);
-							stopService(intent);//关闭服务没用
+							stopService(intent);//关闭服务没用,还要remove(view);
 						}
 					}
 				});

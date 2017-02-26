@@ -13,8 +13,12 @@
 		第一位:项目重大更新(代码重构,大部分功能添加,界面整体修改)
     -->
     <uses-sdk
-        android:minSdkVersion="10"
+        android:minSdkVersion="12"
         android:targetSdkVersion="18" />
+
+    <instrumentation
+        android:name="android.test.InstrumentationTestRunner"
+        android:targetPackage="com.shange.mobilesave" />
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
@@ -26,19 +30,31 @@
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_MOCK_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
-    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <!-- 在窗体上挂载view的权限 -->
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <!-- 去电广播监听的权限 -->
+    <uses-permission android:name="android.permission.PROCESS_OUTGOING_CALLS" />
+    <!-- 拦截电话需要用到的权限 -->
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <!-- 备份短信 -->
+    <uses-permission android:name="android.permission.WRITE_SMS" />
+    <uses-permission android:name="android.permission.READ_SMS" />
 
     <application
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
+        <uses-library android:name="android.test.runner" />
+
         <activity
             android:name=".activity.SplashActivity"
             android:label="@string/app_name" >
             <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
+                <!-- MAIN:主界面,入口界面 -->
+                <action android:name="android.intent.action.MAIN" />
+                <!-- LAUNCHER:桌面上释放一个图标 -->
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
@@ -64,7 +80,18 @@
         </activity>
         <activity android:name="com.shange.mobilesave.activity.AToolActivity" >
         </activity>
-        <activity android:name="com.shange.mobilesave.activity.QueryAddressActivity"></activity>
+        <activity android:name="com.shange.mobilesave.activity.QueryAddressActivity" >
+        </activity>
+        <activity android:name="com.shange.mobilesave.activity.BlackNumberActivity" >
+        </activity>
+        <activity
+            android:name="com.shange.mobilesave.activity.ToastLocationActivity"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+        </activity>
+        <activity android:name="com.shange.mobilesave.activity.ProcessManagerActivity" >
+        </activity>
+        <activity android:name="com.shange.mobilesave.activity.SoftManagerActivity" >
+        </activity>
 
         <receiver android:name="com.shange.mobilesave.receiver.BootReceiver" >
             <intent-filter>
@@ -99,7 +126,9 @@
 
         <service android:name="com.shange.mobilesave.service.LockScreenService" >
         </service>
-         <service android:name="com.shange.mobilesave.service.AddressService" >
+        <service android:name="com.shange.mobilesave.service.AddressService" >
+        </service>
+        <service android:name="com.shange.mobilesave.service.BlackNumberService" >
         </service>
     </application>
 

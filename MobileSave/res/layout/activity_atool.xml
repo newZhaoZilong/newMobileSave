@@ -3,49 +3,56 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical" >
-    
-<TextView 
-    style="@style/MobileSaveTheme"
-    android:text="高级工具"
-    />
-<TextView 
-    android:id="@+id/tv_query_phone_address"
-    android:padding="5dp"
-    android:text="归属地查询"
-    android:gravity="center"
-    android:textSize="18sp"
-    android:drawableLeft="@android:drawable/btn_star"
-    android:background="@drawable/selector_atool_item"
-    android:layout_width="fill_parent"
-    android:layout_height="wrap_content"/>
-<TextView 
-   
-    android:padding="5dp"
-    android:text="短信备份"
-    android:gravity="center"
-    android:textSize="18sp"
-    android:drawableLeft="@android:drawable/btn_star"
-    android:background="@drawable/selector_atool_item"
-    android:layout_width="fill_parent"
-    android:layout_height="wrap_content"/>
-<TextView 
- 
-    android:padding="5dp"
-    android:text="常用号码查询"
-    android:gravity="center"
-    android:textSize="18sp"
-    android:drawableLeft="@android:drawable/btn_star"
-    android:background="@drawable/selector_atool_item"
-    android:layout_width="fill_parent"
-    android:layout_height="wrap_content"/>
-<TextView 
-   
-    android:padding="5dp"
-    android:text="程序锁"
-    android:gravity="center"
-    android:textSize="18sp"
-    android:drawableLeft="@android:drawable/btn_star"
-    android:background="@drawable/selector_atool_item"
-    android:layout_width="fill_parent"
-    android:layout_height="wrap_content"/>
+
+    <TextView
+        style="@style/MobileSaveTheme"
+        android:text="高级工具" />
+
+    <TextView
+        android:id="@+id/tv_query_phone_address"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/selector_atool_item"
+        android:drawableLeft="@android:drawable/btn_star"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="归属地查询"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tv_sms_backup"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/selector_atool_item"
+        android:drawableLeft="@android:drawable/btn_star"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="短信备份"
+        android:textSize="18sp" />
+    <ProgressBar 
+        android:id="@+id/pd_bar"
+        style="@android:style/Widget.ProgressBar.Horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"/>"
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/selector_atool_item"
+        android:drawableLeft="@android:drawable/btn_star"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="常用号码查询"
+        android:textSize="18sp" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/selector_atool_item"
+        android:drawableLeft="@android:drawable/btn_star"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="程序锁"
+        android:textSize="18sp" />
+
 </LinearLayout>
