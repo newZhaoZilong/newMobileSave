@@ -3,6 +3,7 @@ package com.shange.mobilesave.activity;
 import com.shange.mobilesave.R;
 import com.shange.mobilesave.service.AddressService;
 import com.shange.mobilesave.service.BlackNumberService;
+import com.shange.mobilesave.service.WatchDogService;
 import com.shange.mobilesave.utils.ConstantValue;
 import com.shange.mobilesave.utils.ServiceUtil;
 import com.shange.mobilesave.utils.SpUtil;
@@ -42,7 +43,11 @@ public class SettingActivity extends Activity {
 		initLocation();
 		//开启黑名单服务
 		initBlackNumber();
+		//初始化程序锁的方法
+		initAppLock();
 	}
+
+
 
 	/**
 	 * 开启黑名单服务
@@ -211,5 +216,39 @@ public class SettingActivity extends Activity {
 				//没点击一次,存储一次,代码的创造性就是好
 			}
 		});
+	}
+	/**
+	 * 初始化程序锁方法
+	 */
+	private void initAppLock() {
+		//找到控件,控件名就是类名
+		final SettingItemView siv_app_lock = (SettingItemView) findViewById(R.id.siv_app_lock);
+		//获取存储的节点值
+		boolean isrunning = ServiceUtil.isRunning(this, "com.shange.mobilesave.service.WatchDogService");
+		//是否选中,根据上一次存储的结果去做决定
+		siv_app_lock.setChecked(isrunning);//代码的复用性真是妙不可言
+		//设置该控件的点击事件
+		siv_app_lock.setOnClickListener(new OnClickListener() {
+			
+			@Override
+			public void onClick(View v) {
+				// 当点击时调用这个方法
+				//首先获取当前状态
+				boolean isCheck = siv_app_lock.isCheck();//上边刚设置,现在就去
+				//点击一次,转变一次状态
+				siv_app_lock.setChecked(!isCheck);
+				if(!isCheck){//为ture开启服务
+					//开启服务
+					Intent intent = new Intent(getApplicationContext(),WatchDogService.class);
+					
+					startService(intent);
+				}else{
+					//关闭服务
+					Intent intent = new Intent(getApplicationContext(),WatchDogService.class);
+					stopService(intent);//
+				}
+			}
+		});
+	
 	}
 }

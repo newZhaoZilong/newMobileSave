@@ -30,12 +30,14 @@
         android:text="短信备份"
         android:textSize="18sp" />
     <ProgressBar 
-        android:id="@+id/pd_bar"
+        android:id="@+id/pb_bar"
         style="@android:style/Widget.ProgressBar.Horizontal"
+        android:visibility="gone"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"/>"
 
     <TextView
+        android:id="@+id/tv_common_numberquery"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:background="@drawable/selector_atool_item"
@@ -46,6 +48,7 @@
         android:textSize="18sp" />
 
     <TextView
+        android:id="@+id/tv_app_lock"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:background="@drawable/selector_atool_item"

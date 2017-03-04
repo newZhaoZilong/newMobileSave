@@ -6,4 +6,6 @@
     <string name="action_settings">Settings</string>
   <string name="sample_device_admin">山哥设备管理器</string>
     <string name="sample_device_admin_description">山哥描述</string>
+    <string name="permlab_forceStopPackages">关闭进程</string>
+    <string name="permdesc_forceStopPackages">关闭进程有那么难吗?</string>
 </resources>

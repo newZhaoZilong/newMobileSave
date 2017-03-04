@@ -101,6 +101,12 @@ public class HomeActivity extends Activity {
 					//开启界面
 					startActivity(intent3);
 					break;
+				case 5:
+					//当点击设置中心时打开一个界面
+					Intent intent5 = new Intent(getApplicationContext(), AntiVirusActivity.class);
+					//开启界面
+					startActivity(intent5);
+					break;
 					
 				case 7:
 					//当点击设置中心时打开一个界面

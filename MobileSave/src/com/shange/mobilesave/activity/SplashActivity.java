@@ -31,6 +31,7 @@ import android.content.Intent;
 import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
 import android.content.pm.PackageManager.NameNotFoundException;
+import android.graphics.BitmapFactory;
 import android.net.Uri;
 import android.os.Bundle;
 import android.os.Environment;
@@ -127,18 +128,54 @@ public class SplashActivity extends Activity {
         initData();
         //初始化动画
         initAnimation();
-        //舒适化数据库
+        //初始化数据库
         initDB();
+      //生成快捷方式
+        if(!SpUtil.getBoolean(this, ConstantValue.HAS_SHORTCUT, false)){
+        	initShortCut();
+        }
+        
         
     }
 
     
+	/**
+	 * 生成快捷方式
+	 */
+	private void initShortCut() {
+		//1,给intent维护图标,名称
+		//维护图标
+		Intent intent = new Intent();
+		//指定动作名称,用于广播被接收
+		intent.setAction("com.android.launcher.action.INSTALL_SHORTCUT");
+		//维护图标
+		intent.putExtra(Intent.EXTRA_SHORTCUT_ICON,BitmapFactory.decodeResource
+				(getResources(), R.drawable.ic_launcher));
+		//名称
+		intent.putExtra(Intent.EXTRA_SHORTCUT_NAME, "山哥卫士");
+		//2,点击快捷方式后跳转到activity
+		//2.1维护开启的意图对象
+		Intent shortCutIntent = new Intent("android.intent.action.HOME");
+		shortCutIntent.addCategory("android.intent.category.DEFAULT");
+		
+		
+		intent.putExtra(Intent.EXTRA_SHORTCUT_INTENT, shortCutIntent);
+		//3,发送有序广播
+		sendBroadcast(intent);
+		
+		SpUtil.putBoolean(this, ConstantValue.HAS_SHORTCUT, true);
+	}
+
+
 	private void initDB() {
 		//1,归属地数据拷贝过程
 		
 		
 		initAddressDB("address.db");
-		
+		//2.常用号码数据库拷贝
+		initAddressDB("commonnum.db");
+		//3病毒数据库拷贝
+		initAddressDB("antivirus.db");
 	}
 
 

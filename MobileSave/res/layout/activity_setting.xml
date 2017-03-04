@@ -41,6 +41,14 @@
     mobilesafe:desoff="屏蔽黑名单已关闭"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"/>
+<com.shange.mobilesave.view.SettingItemView
+    xmlns:mobilesafe="http://schemas.android.com/apk/res/com.shange.mobilesave"
+    android:id="@+id/siv_app_lock"
+    mobilesafe:destitle="程序锁设置"
+    mobilesafe:deson="程序锁已关闭"
+    mobilesafe:desoff="程序锁已关闭"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"/>
     <!-- <RelativeLayout
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"

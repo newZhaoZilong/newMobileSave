@@ -12,6 +12,9 @@ public class ConstantValue {
 	public static final String TOAST_STYLE = "toast_style";
 	public static final String LOCATION_X = "location_x";
 	public static final String LOCATION_Y = "location_y";
+	public static final String SHOW_SYSTEM = "show_system";
+//	public static final String LOCK_CLEAN = "lock_clean";
+	public static final String HAS_SHORTCUT = "has_shortcut";
 
 	
 

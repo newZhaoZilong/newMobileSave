@@ -5,6 +5,7 @@ import com.shange.mobilesave.engine.AddressDao;
 import com.shange.mobilesave.utils.ToastUtil;
 
 import android.app.Activity;
+import android.net.Uri;
 import android.os.Bundle;
 import android.os.Handler;
 import android.text.Editable;
@@ -124,6 +125,8 @@ public class QueryAddressActivity extends Activity {
 				//3,消息机制,告知主线程查询结束,可以去使用查询结果
 				//发送一条空消息
 				mhandler.sendEmptyMessage(0);
+				
+			//无效 	getApplicationContext().getContentResolver().notifyChange(Uri.parse("content://applock/change"), null);
 			};
 			
 		}.start();
