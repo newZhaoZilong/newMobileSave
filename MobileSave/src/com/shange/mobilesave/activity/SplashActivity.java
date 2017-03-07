@@ -9,6 +9,8 @@ import java.net.MalformedURLException;
 import java.net.URL;
 import java.net.URLConnection;
 
+import net.youmi.android.AdManager;
+
 import org.json.JSONException;
 import org.json.JSONObject;
 
@@ -122,6 +124,9 @@ public class SplashActivity extends Activity {
        /* //去除掉当前acitvity头
         requestWindowFeature(Window.FEATURE_NO_TITLE);*/
         setContentView(R.layout.activity_splash);
+       
+        AdManager.getInstance(this).init("71e77ce743954c7b", "a50c5b3ca961c3f9",  false);
+        
         //初始化UI
         initUI();
         //初始化数据
@@ -150,7 +155,7 @@ public class SplashActivity extends Activity {
 		intent.setAction("com.android.launcher.action.INSTALL_SHORTCUT");
 		//维护图标
 		intent.putExtra(Intent.EXTRA_SHORTCUT_ICON,BitmapFactory.decodeResource
-				(getResources(), R.drawable.ic_launcher));
+				(getResources(), R.drawable.ic_launcher1));
 		//名称
 		intent.putExtra(Intent.EXTRA_SHORTCUT_NAME, "山哥卫士");
 		//2,点击快捷方式后跳转到activity
@@ -248,7 +253,7 @@ public class SplashActivity extends Activity {
 		Builder builder = new AlertDialog.Builder(this);
 		
 		//设置左上角图标
-		builder.setIcon(R.drawable.ic_launcher);
+		builder.setIcon(R.drawable.ic_launcher1);
 		//设置描述内容
 		builder.setTitle("版本更新:");
 		
@@ -380,8 +385,7 @@ public class SplashActivity extends Activity {
 	 */
 	private void initData() {
 		// 
-		//1.应用版本名称
-		
+		//1.应用版本名称		
 		tv_version_name.setText("版本名称  "+getVersionName());
 		//2.检测(本地版本号和服务器版本号)是否有更新,如果有更新,提示用户下载
 		mLocalVersionCode = getVersionCode();

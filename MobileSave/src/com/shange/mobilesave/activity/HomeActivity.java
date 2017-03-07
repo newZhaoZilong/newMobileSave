@@ -1,6 +1,11 @@
 package com.shange.mobilesave.activity;
 
 
+
+
+import net.youmi.android.banner.AdSize;
+import net.youmi.android.banner.AdView;
+
 import com.lidroid.xutils.cache.MD5FileNameGenerator;
 import com.shange.mobilesave.R;
 import com.shange.mobilesave.utils.ConstantValue;
@@ -25,6 +30,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.GridView;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -39,9 +45,19 @@ public class HomeActivity extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		// TODO Auto-generated method stub
 		super.onCreate(savedInstanceState);
+	
 		//设置布局文件
 		setContentView(R.layout.activity_home);
+		// 实例化广告条
+		AdView adView = new AdView(this, AdSize.FIT_SCREEN);
 
+		// 获取要嵌入广告条的布局
+		LinearLayout adLayout=(LinearLayout)findViewById(R.id.adLayout);
+
+		// 将广告条加入到布局中
+		adLayout.addView(adView);
+		
+	
 		initUI();
 		//初始化数据的方法
 		initData();
@@ -101,11 +117,24 @@ public class HomeActivity extends Activity {
 					//开启界面
 					startActivity(intent3);
 					break;
+				case 4:
+					//当点击设置中心时打开一个界面
+					Intent intent4 = new Intent(getApplicationContext(), TrafficActivity.class);
+					//开启界面
+					startActivity(intent4);
+					break;
 				case 5:
 					//当点击设置中心时打开一个界面
 					Intent intent5 = new Intent(getApplicationContext(), AntiVirusActivity.class);
 					//开启界面
 					startActivity(intent5);
+					break;
+				
+				case 6:
+					//当点击设置中心时打开一个界面
+					Intent intent6 = new Intent(getApplicationContext(), BaseCacheClearActivity.class);
+					//开启界面
+					startActivity(intent6);
 					break;
 					
 				case 7:
@@ -311,5 +340,6 @@ public class HomeActivity extends Activity {
 		}
 
 	}
+
 
 }

@@ -1,0 +1,341 @@
+com.jaredrummler.android.processes.models.AndroidAppProcess: android.os.Parcelable$Creator CREATOR
+com.jaredrummler.android.processes.models.AndroidProcess: android.os.Parcelable$Creator CREATOR
+com.jaredrummler.android.processes.models.Cgroup: android.os.Parcelable$Creator CREATOR
+com.jaredrummler.android.processes.models.ControlGroup: android.os.Parcelable$Creator CREATOR
+com.jaredrummler.android.processes.models.ProcFile: android.os.Parcelable$Creator CREATOR
+com.jaredrummler.android.processes.models.Stat: android.os.Parcelable$Creator CREATOR
+com.jaredrummler.android.processes.models.Statm: android.os.Parcelable$Creator CREATOR
+com.jaredrummler.android.processes.models.Status: android.os.Parcelable$Creator CREATOR
+com.lidroid.xutils.bitmap.callback.BitmapLoadFrom: com.lidroid.xutils.bitmap.callback.BitmapLoadFrom[] values()
+com.lidroid.xutils.bitmap.callback.BitmapLoadFrom: com.lidroid.xutils.bitmap.callback.BitmapLoadFrom valueOf(java.lang.String)
+com.lidroid.xutils.db.sqlite.ColumnDbType: com.lidroid.xutils.db.sqlite.ColumnDbType[] values()
+com.lidroid.xutils.db.sqlite.ColumnDbType: com.lidroid.xutils.db.sqlite.ColumnDbType valueOf(java.lang.String)
+com.lidroid.xutils.http.HttpHandler$State: com.lidroid.xutils.http.HttpHandler$State[] values()
+com.lidroid.xutils.http.HttpHandler$State: com.lidroid.xutils.http.HttpHandler$State valueOf(java.lang.String)
+com.lidroid.xutils.http.client.HttpRequest$HttpMethod: com.lidroid.xutils.http.client.HttpRequest$HttpMethod[] values()
+com.lidroid.xutils.http.client.HttpRequest$HttpMethod: com.lidroid.xutils.http.client.HttpRequest$HttpMethod valueOf(java.lang.String)
+com.lidroid.xutils.http.client.multipart.HttpMultipartMode: com.lidroid.xutils.http.client.multipart.HttpMultipartMode[] values()
+com.lidroid.xutils.http.client.multipart.HttpMultipartMode: com.lidroid.xutils.http.client.multipart.HttpMultipartMode valueOf(java.lang.String)
+com.lidroid.xutils.task.Priority: com.lidroid.xutils.task.Priority[] values()
+com.lidroid.xutils.task.Priority: com.lidroid.xutils.task.Priority valueOf(java.lang.String)
+com.lidroid.xutils.view.ResType: com.lidroid.xutils.view.ResType[] values()
+com.lidroid.xutils.view.ResType: com.lidroid.xutils.view.ResType valueOf(java.lang.String)
+com.shange.mobilesave.R$anim: int cycle_7
+com.shange.mobilesave.R$anim: int next_current_out
+com.shange.mobilesave.R$anim: int next_in
+com.shange.mobilesave.R$anim: int pre_current_out
+com.shange.mobilesave.R$anim: int pre_in
+com.shange.mobilesave.R$anim: int shake
+com.shange.mobilesave.R$attr: int desoff
+com.shange.mobilesave.R$attr: int deson
+com.shange.mobilesave.R$attr: int destitle
+com.shange.mobilesave.R$color: int pink
+com.shange.mobilesave.R$dimen: int activity_horizontal_margin
+com.shange.mobilesave.R$dimen: int activity_vertical_margin
+com.shange.mobilesave.R$drawable: int act_scanning_03
+com.shange.mobilesave.R$drawable: int bind
+com.shange.mobilesave.R$drawable: int btn_green_normal
+com.shange.mobilesave.R$drawable: int btn_green_pressed
+com.shange.mobilesave.R$drawable: int call_locate_blue
+com.shange.mobilesave.R$drawable: int call_locate_gray
+com.shange.mobilesave.R$drawable: int call_locate_green
+com.shange.mobilesave.R$drawable: int call_locate_orange
+com.shange.mobilesave.R$drawable: int call_locate_white
+com.shange.mobilesave.R$drawable: int checkbox_checked
+com.shange.mobilesave.R$drawable: int checkbox_normal
+com.shange.mobilesave.R$drawable: int drag
+com.shange.mobilesave.R$drawable: int function_greenbutton_normal
+com.shange.mobilesave.R$drawable: int function_greenbutton_pressed
+com.shange.mobilesave.R$drawable: int home_apps
+com.shange.mobilesave.R$drawable: int home_callmsgsafe
+com.shange.mobilesave.R$drawable: int home_netmanager
+com.shange.mobilesave.R$drawable: int home_safe
+com.shange.mobilesave.R$drawable: int home_settings
+com.shange.mobilesave.R$drawable: int home_sysoptimize
+com.shange.mobilesave.R$drawable: int home_taskmanager
+com.shange.mobilesave.R$drawable: int home_tools
+com.shange.mobilesave.R$drawable: int home_trojan
+com.shange.mobilesave.R$drawable: int ic_launcher
+com.shange.mobilesave.R$drawable: int ic_scanner_malware
+com.shange.mobilesave.R$drawable: int img1
+com.shange.mobilesave.R$drawable: int img2
+com.shange.mobilesave.R$drawable: int img3
+com.shange.mobilesave.R$drawable: int img4
+com.shange.mobilesave.R$drawable: int jiantou1_pressed
+com.shange.mobilesave.R$drawable: int launcher_bg
+com.shange.mobilesave.R$drawable: int listview_divider
+com.shange.mobilesave.R$drawable: int local_popup_bg
+com.shange.mobilesave.R$drawable: int lock
+com.shange.mobilesave.R$drawable: int main_clean_icon
+com.shange.mobilesave.R$drawable: int main_clean_icon_pressed
+com.shange.mobilesave.R$drawable: int next
+com.shange.mobilesave.R$drawable: int phone
+com.shange.mobilesave.R$drawable: int previous
+com.shange.mobilesave.R$drawable: int progress_bg
+com.shange.mobilesave.R$drawable: int progressbar_drawable
+com.shange.mobilesave.R$drawable: int reset_setup_bg_press
+com.shange.mobilesave.R$drawable: int security_progress
+com.shange.mobilesave.R$drawable: int security_progress_bg
+com.shange.mobilesave.R$drawable: int selector_atool_item
+com.shange.mobilesave.R$drawable: int selector_blacknumber_delete_btn_bg
+com.shange.mobilesave.R$drawable: int selector_checkbox
+com.shange.mobilesave.R$drawable: int selector_next_btn_bg
+com.shange.mobilesave.R$drawable: int selector_number_btn_bg
+com.shange.mobilesave.R$drawable: int selector_reset_setup_bg
+com.shange.mobilesave.R$drawable: int setup1
+com.shange.mobilesave.R$drawable: int shenmabg
+com.shange.mobilesave.R$drawable: int tab_left_default
+com.shange.mobilesave.R$drawable: int tab_left_pressed
+com.shange.mobilesave.R$drawable: int tab_right_default
+com.shange.mobilesave.R$drawable: int tab_right_pressed
+com.shange.mobilesave.R$drawable: int unlock
+com.shange.mobilesave.R$drawable: int widget_bg_portrait
+com.shange.mobilesave.R$drawable: int widget_bg_portrait_child
+com.shange.mobilesave.R$drawable: int widget_bg_portrait_child_divider
+com.shange.mobilesave.R$id: int action_settings
+com.shange.mobilesave.R$id: int bt_add_black_number
+com.shange.mobilesave.R$id: int bt_all
+com.shange.mobilesave.R$id: int bt_bottom
+com.shange.mobilesave.R$id: int bt_cancel
+com.shange.mobilesave.R$id: int bt_clean
+com.shange.mobilesave.R$id: int bt_clear
+com.shange.mobilesave.R$id: int bt_lock
+com.shange.mobilesave.R$id: int bt_query_phone_address
+com.shange.mobilesave.R$id: int bt_reverse
+com.shange.mobilesave.R$id: int bt_select_number
+com.shange.mobilesave.R$id: int bt_setting
+com.shange.mobilesave.R$id: int bt_submit
+com.shange.mobilesave.R$id: int bt_top
+com.shange.mobilesave.R$id: int bt_unlock
+com.shange.mobilesave.R$id: int btn_clear
+com.shange.mobilesave.R$id: int cb_box
+com.shange.mobilesave.R$id: int cb_lock_clear
+com.shange.mobilesave.R$id: int cb_open_security
+com.shange.mobilesave.R$id: int cb_show_system
+com.shange.mobilesave.R$id: int content
+com.shange.mobilesave.R$id: int el_common_numberlist
+com.shange.mobilesave.R$id: int et_confirm_psd
+com.shange.mobilesave.R$id: int et_input_phone
+com.shange.mobilesave.R$id: int et_phone
+com.shange.mobilesave.R$id: int et_phone_number
+com.shange.mobilesave.R$id: int et_psd
+com.shange.mobilesave.R$id: int et_set_psd
+com.shange.mobilesave.R$id: int gv_home
+com.shange.mobilesave.R$id: int handler
+com.shange.mobilesave.R$id: int iv_app_icon
+com.shange.mobilesave.R$id: int iv_delete
+com.shange.mobilesave.R$id: int iv_drag
+com.shange.mobilesave.R$id: int iv_icon
+com.shange.mobilesave.R$id: int iv_item_softmanager_icon
+com.shange.mobilesave.R$id: int iv_lock
+com.shange.mobilesave.R$id: int iv_scanning
+com.shange.mobilesave.R$id: int ll_add_text
+com.shange.mobilesave.R$id: int ll_lock
+com.shange.mobilesave.R$id: int ll_pupupwindow_detail
+com.shange.mobilesave.R$id: int ll_pupupwindow_share
+com.shange.mobilesave.R$id: int ll_pupupwindow_start
+com.shange.mobilesave.R$id: int ll_pupupwindow_uninstall
+com.shange.mobilesave.R$id: int ll_root
+com.shange.mobilesave.R$id: int ll_unlock
+com.shange.mobilesave.R$id: int loading
+com.shange.mobilesave.R$id: int lv_blacknumber
+com.shange.mobilesave.R$id: int lv_contact
+com.shange.mobilesave.R$id: int lv_lock
+com.shange.mobilesave.R$id: int lv_process_list
+com.shange.mobilesave.R$id: int lv_softmanager_application
+com.shange.mobilesave.R$id: int lv_unlock
+com.shange.mobilesave.R$id: int pb_bar
+com.shange.mobilesave.R$id: int rb_all
+com.shange.mobilesave.R$id: int rb_phone
+com.shange.mobilesave.R$id: int rb_sms
+com.shange.mobilesave.R$id: int rg_group
+com.shange.mobilesave.R$id: int rl_splash
+com.shange.mobilesave.R$id: int scv_location
+com.shange.mobilesave.R$id: int scv_toast_style
+com.shange.mobilesave.R$id: int siv_address
+com.shange.mobilesave.R$id: int siv_app_lock
+com.shange.mobilesave.R$id: int siv_blackNumber
+com.shange.mobilesave.R$id: int siv_sim_bound
+com.shange.mobilesave.R$id: int siv_update
+com.shange.mobilesave.R$id: int tv__item_softmanager_issd
+com.shange.mobilesave.R$id: int tv__item_softmanager_name
+com.shange.mobilesave.R$id: int tv__item_softmanager_version
+com.shange.mobilesave.R$id: int tv_app_lock
+com.shange.mobilesave.R$id: int tv_app_name
+com.shange.mobilesave.R$id: int tv_cache_info
+com.shange.mobilesave.R$id: int tv_common_numberquery
+com.shange.mobilesave.R$id: int tv_des
+com.shange.mobilesave.R$id: int tv_lock
+com.shange.mobilesave.R$id: int tv_memory_info
+com.shange.mobilesave.R$id: int tv_mode
+com.shange.mobilesave.R$id: int tv_name
+com.shange.mobilesave.R$id: int tv_number
+com.shange.mobilesave.R$id: int tv_phone_address
+com.shange.mobilesave.R$id: int tv_process_count
+com.shange.mobilesave.R$id: int tv_process_memory
+com.shange.mobilesave.R$id: int tv_query_phone_address
+com.shange.mobilesave.R$id: int tv_reset_setup
+com.shange.mobilesave.R$id: int tv_setover_phone
+com.shange.mobilesave.R$id: int tv_setting_title
+com.shange.mobilesave.R$id: int tv_sms_backup
+com.shange.mobilesave.R$id: int tv_softmanager_rom
+com.shange.mobilesave.R$id: int tv_softmanager_sd
+com.shange.mobilesave.R$id: int tv_softmanager_userorsystem
+com.shange.mobilesave.R$id: int tv_title
+com.shange.mobilesave.R$id: int tv_toast
+com.shange.mobilesave.R$id: int tv_unlock
+com.shange.mobilesave.R$id: int tv_version_name
+com.shange.mobilesave.R$layout: int activity_antivirus
+com.shange.mobilesave.R$layout: int activity_applock
+com.shange.mobilesave.R$layout: int activity_atool
+com.shange.mobilesave.R$layout: int activity_base_clearcache
+com.shange.mobilesave.R$layout: int activity_black_number
+com.shange.mobilesave.R$layout: int activity_cacheclear
+com.shange.mobilesave.R$layout: int activity_commonquery
+com.shange.mobilesave.R$layout: int activity_contact_list
+com.shange.mobilesave.R$layout: int activity_enter_psd
+com.shange.mobilesave.R$layout: int activity_home
+com.shange.mobilesave.R$layout: int activity_processmanager
+com.shange.mobilesave.R$layout: int activity_processsetting
+com.shange.mobilesave.R$layout: int activity_query_address
+com.shange.mobilesave.R$layout: int activity_setting
+com.shange.mobilesave.R$layout: int activity_setup1
+com.shange.mobilesave.R$layout: int activity_setup2
+com.shange.mobilesave.R$layout: int activity_setup3
+com.shange.mobilesave.R$layout: int activity_setup4
+com.shange.mobilesave.R$layout: int activity_setup_over
+com.shange.mobilesave.R$layout: int activity_softmanager
+com.shange.mobilesave.R$layout: int activity_splash
+com.shange.mobilesave.R$layout: int activity_toast_location
+com.shange.mobilesave.R$layout: int activity_traffic
+com.shange.mobilesave.R$layout: int dialog_add_blacknumber
+com.shange.mobilesave.R$layout: int dialog_confirm_psd
+com.shange.mobilesave.R$layout: int dialog_set_psd
+com.shange.mobilesave.R$layout: int elv_child_item
+com.shange.mobilesave.R$layout: int gridview_item
+com.shange.mobilesave.R$layout: int item_linearlayout_cache
+com.shange.mobilesave.R$layout: int item_softmanager
+com.shange.mobilesave.R$layout: int listview_app_item_title
+com.shange.mobilesave.R$layout: int listview_blacknumber_item
+com.shange.mobilesave.R$layout: int listview_contact_item
+com.shange.mobilesave.R$layout: int listview_islock_item
+com.shange.mobilesave.R$layout: int listview_process_item
+com.shange.mobilesave.R$layout: int popup_window
+com.shange.mobilesave.R$layout: int process_widget
+com.shange.mobilesave.R$layout: int setting_click_view
+com.shange.mobilesave.R$layout: int setting_item_view
+com.shange.mobilesave.R$layout: int toast_view
+com.shange.mobilesave.R$menu: int main
+com.shange.mobilesave.R$raw: int ylzs
+com.shange.mobilesave.R$string: int action_settings
+com.shange.mobilesave.R$string: int app_name
+com.shange.mobilesave.R$string: int hello_world
+com.shange.mobilesave.R$string: int permdesc_forceStopPackages
+com.shange.mobilesave.R$string: int permlab_forceStopPackages
+com.shange.mobilesave.R$string: int sample_device_admin
+com.shange.mobilesave.R$string: int sample_device_admin_description
+com.shange.mobilesave.R$style: int AppBaseTheme
+com.shange.mobilesave.R$style: int AppTheme
+com.shange.mobilesave.R$style: int MobileSaveTheme
+com.shange.mobilesave.R$style: int nextBt
+com.shange.mobilesave.R$style: int preBt
+com.shange.mobilesave.R$styleable: int[] com_shange_mobilesave_view_SettingItemView
+com.shange.mobilesave.R$styleable: int com_shange_mobilesave_view_SettingItemView_desoff
+com.shange.mobilesave.R$styleable: int com_shange_mobilesave_view_SettingItemView_deson
+com.shange.mobilesave.R$styleable: int com_shange_mobilesave_view_SettingItemView_destitle
+com.shange.mobilesave.R$xml: int device_admin_sample
+com.shange.mobilesave.R$xml: int process_widget_provider
+com.shange.mobilesave.activity.AToolActivity
+com.shange.mobilesave.activity.AToolActivity: AToolActivity()
+com.shange.mobilesave.activity.AntiVirusActivity
+com.shange.mobilesave.activity.AntiVirusActivity: AntiVirusActivity()
+com.shange.mobilesave.activity.AppLockActivity
+com.shange.mobilesave.activity.AppLockActivity: AppLockActivity()
+com.shange.mobilesave.activity.BaseCacheClearActivity
+com.shange.mobilesave.activity.BaseCacheClearActivity: BaseCacheClearActivity()
+com.shange.mobilesave.activity.BaseSetupActivity
+com.shange.mobilesave.activity.BaseSetupActivity: BaseSetupActivity()
+com.shange.mobilesave.activity.BaseSetupActivity: void nextPage(android.view.View)
+com.shange.mobilesave.activity.BaseSetupActivity: void prePage(android.view.View)
+com.shange.mobilesave.activity.BlackNumberActivity
+com.shange.mobilesave.activity.BlackNumberActivity: BlackNumberActivity()
+com.shange.mobilesave.activity.CacheClearActivity
+com.shange.mobilesave.activity.CacheClearActivity: CacheClearActivity()
+com.shange.mobilesave.activity.CommonNumberQueryActivity
+com.shange.mobilesave.activity.CommonNumberQueryActivity: CommonNumberQueryActivity()
+com.shange.mobilesave.activity.ContactListActivity
+com.shange.mobilesave.activity.ContactListActivity: ContactListActivity()
+com.shange.mobilesave.activity.EnterPsdActivity
+com.shange.mobilesave.activity.EnterPsdActivity: EnterPsdActivity()
+com.shange.mobilesave.activity.HomeActivity
+com.shange.mobilesave.activity.HomeActivity: HomeActivity()
+com.shange.mobilesave.activity.ProcessManagerActivity
+com.shange.mobilesave.activity.ProcessManagerActivity: ProcessManagerActivity()
+com.shange.mobilesave.activity.ProcessManagerActivity: void onClick(android.view.View)
+com.shange.mobilesave.activity.ProcessSettingActivity
+com.shange.mobilesave.activity.ProcessSettingActivity: ProcessSettingActivity()
+com.shange.mobilesave.activity.QueryAddressActivity
+com.shange.mobilesave.activity.QueryAddressActivity: QueryAddressActivity()
+com.shange.mobilesave.activity.SDCacheClearActivity
+com.shange.mobilesave.activity.SDCacheClearActivity: SDCacheClearActivity()
+com.shange.mobilesave.activity.SettingActivity
+com.shange.mobilesave.activity.SettingActivity: SettingActivity()
+com.shange.mobilesave.activity.Setup1Activity
+com.shange.mobilesave.activity.Setup1Activity: Setup1Activity()
+com.shange.mobilesave.activity.Setup2Activity
+com.shange.mobilesave.activity.Setup2Activity: Setup2Activity()
+com.shange.mobilesave.activity.Setup3Activity
+com.shange.mobilesave.activity.Setup3Activity: Setup3Activity()
+com.shange.mobilesave.activity.Setup4Activity
+com.shange.mobilesave.activity.Setup4Activity: Setup4Activity()
+com.shange.mobilesave.activity.SetupOverActivity
+com.shange.mobilesave.activity.SetupOverActivity: SetupOverActivity()
+com.shange.mobilesave.activity.SoftManagerActivity
+com.shange.mobilesave.activity.SoftManagerActivity: SoftManagerActivity()
+com.shange.mobilesave.activity.SoftManagerActivity: void onClick(android.view.View)
+com.shange.mobilesave.activity.SplashActivity
+com.shange.mobilesave.activity.SplashActivity: SplashActivity()
+com.shange.mobilesave.activity.TestActivity
+com.shange.mobilesave.activity.TestActivity: TestActivity()
+com.shange.mobilesave.activity.ToastLocationActivity
+com.shange.mobilesave.activity.ToastLocationActivity: ToastLocationActivity()
+com.shange.mobilesave.activity.TrafficActivity
+com.shange.mobilesave.activity.TrafficActivity: TrafficActivity()
+com.shange.mobilesave.receiver.BootReceiver
+com.shange.mobilesave.receiver.BootReceiver: BootReceiver()
+com.shange.mobilesave.receiver.DeviceAdminSampleReceiver
+com.shange.mobilesave.receiver.DeviceAdminSampleReceiver: DeviceAdminSampleReceiver()
+com.shange.mobilesave.receiver.MyAppWidgetProvider
+com.shange.mobilesave.receiver.MyAppWidgetProvider: MyAppWidgetProvider()
+com.shange.mobilesave.receiver.SmsReceiver
+com.shange.mobilesave.receiver.SmsReceiver: SmsReceiver()
+com.shange.mobilesave.service.AddressService
+com.shange.mobilesave.service.AddressService: AddressService()
+com.shange.mobilesave.service.BlackNumberService
+com.shange.mobilesave.service.BlackNumberService: BlackNumberService()
+com.shange.mobilesave.service.LocationService
+com.shange.mobilesave.service.LocationService: LocationService()
+com.shange.mobilesave.service.LockCleanService
+com.shange.mobilesave.service.LockCleanService: LockCleanService()
+com.shange.mobilesave.service.LockScreenService
+com.shange.mobilesave.service.LockScreenService: LockScreenService()
+com.shange.mobilesave.service.WatchDogService
+com.shange.mobilesave.service.WatchDogService: WatchDogService()
+com.shange.mobilesave.view.FocusTextView
+com.shange.mobilesave.view.FocusTextView: FocusTextView(android.content.Context)
+com.shange.mobilesave.view.FocusTextView: FocusTextView(android.content.Context,android.util.AttributeSet)
+com.shange.mobilesave.view.FocusTextView: FocusTextView(android.content.Context,android.util.AttributeSet,int)
+com.shange.mobilesave.view.SettingClickView
+com.shange.mobilesave.view.SettingClickView: SettingClickView(android.content.Context)
+com.shange.mobilesave.view.SettingClickView: SettingClickView(android.content.Context,android.util.AttributeSet)
+com.shange.mobilesave.view.SettingClickView: SettingClickView(android.content.Context,android.util.AttributeSet,int)
+com.shange.mobilesave.view.SettingClickView: void setTitle(java.lang.String)
+com.shange.mobilesave.view.SettingClickView: void setDes(java.lang.String)
+com.shange.mobilesave.view.SettingClickView: void setChecked(boolean)
+com.shange.mobilesave.view.SettingClickView: void setChecked(java.lang.String)
+com.shange.mobilesave.view.SettingItemView
+com.shange.mobilesave.view.SettingItemView: SettingItemView(android.content.Context)
+com.shange.mobilesave.view.SettingItemView: SettingItemView(android.content.Context,android.util.AttributeSet)
+com.shange.mobilesave.view.SettingItemView: SettingItemView(android.content.Context,android.util.AttributeSet,int)
+com.shange.mobilesave.view.SettingItemView: void setChecked(boolean)
+com.shange.mobilesave.view.SettingItemView: void setChecked(java.lang.String)

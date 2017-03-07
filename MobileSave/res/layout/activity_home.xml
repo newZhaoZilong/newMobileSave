@@ -22,7 +22,7 @@
         android:marqueeRepeatLimit="marquee_forever"
         android:focusableInTouchMode="true"
         android:text="举世皆浊我独清，众人皆醉我独醒;举世皆浊我独清，众人皆醉我独醒"/>
-        不就省略个focusable true吗,有求用
+        不就省略个focusable true吗,有求用
     -->
 
     <com.shange.mobilesave.view.FocusTextView
@@ -36,14 +36,22 @@
         android:text="举世皆浊我独清，众人皆醉我独醒;举世皆浊我独清，众人皆醉我独醒"
         android:textColor="#000" />
     <!-- android:numColumn指定列数 -->
-	<GridView 
-	    android:layout_marginTop="20dp"
-	    android:id="@+id/gv_home"
-	    android:numColumns="3"
-	    android:verticalSpacing="25dp"
-	    android:layout_width="fill_parent"
-	    android:layout_height="fill_parent"
-	    >
-	   
-	</GridView>
+
+    <LinearLayout
+        android:id="@+id/adLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal" >
+    </LinearLayout>
+
+    <GridView
+        android:id="@+id/gv_home"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="20dp"
+        android:numColumns="3"
+        android:verticalSpacing="25dp" >
+    </GridView>
+
 </LinearLayout>

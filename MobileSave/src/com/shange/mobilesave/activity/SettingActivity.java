@@ -128,7 +128,7 @@ public class SettingActivity extends Activity {
 	protected void showToastStyleDialog() {
 		//创建单选对话框,
 		AlertDialog.Builder builder = new AlertDialog.Builder(this);
-		builder.setIcon(R.drawable.ic_launcher);
+		builder.setIcon(R.drawable.ic_launcher1);
 		builder.setTitle("请选择归属地样式");
 		//要时时更新
 		toast_style = SpUtil.getInt(this, ConstantValue.TOAST_STYLE, 0);

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">MobileSave</string>
+    <string name="app_name">手机管家</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
   <string name="sample_device_admin">山哥设备管理器</string>

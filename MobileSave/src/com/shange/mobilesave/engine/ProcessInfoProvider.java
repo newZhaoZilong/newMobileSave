@@ -198,7 +198,7 @@ public class ProcessInfoProvider {
 				// 如果没找到说明是系统程序,在这里做容错处理
 				processInfo.name = androidAppProcess.name;
 				//9.获取应用的图标
-				processInfo.icon = ctx.getResources().getDrawable(R.drawable.ic_launcher);
+				processInfo.icon = ctx.getResources().getDrawable(R.drawable.ic_launcher1);
 				//拿不到名称肯定是系统进程
 				processInfo.isSystem = true;
 				e.printStackTrace();

@@ -1,0 +1,141 @@
+# view AndroidManifest.xml #generated:20
+-keep class android.test.InstrumentationTestRunner { <init>(...); }
+
+# view AndroidManifest.xml #generated:200
+-keep class com.itheima.mobilesafe74.receiver.KillProcessReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:111
+-keep class com.shange.mobilesave.activity.AToolActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:137
+-keep class com.shange.mobilesave.activity.AntiVirusActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:129
+-keep class com.shange.mobilesave.activity.AppLockActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:141
+-keep class com.shange.mobilesave.activity.BaseCacheClearActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:109
+-keep class com.shange.mobilesave.activity.BaseSetupActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:115
+-keep class com.shange.mobilesave.activity.BlackNumberActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:139
+-keep class com.shange.mobilesave.activity.CacheClearActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:127
+-keep class com.shange.mobilesave.activity.CommonNumberQueryActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:107
+-keep class com.shange.mobilesave.activity.ContactListActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:132
+-keep class com.shange.mobilesave.activity.EnterPsdActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:84
+-keep class com.shange.mobilesave.activity.HomeActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:123
+-keep class com.shange.mobilesave.activity.ProcessManagerActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:125
+-keep class com.shange.mobilesave.activity.ProcessSettingActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:113
+-keep class com.shange.mobilesave.activity.QueryAddressActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:143
+-keep class com.shange.mobilesave.activity.SDCacheClearActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:93
+-keep class com.shange.mobilesave.activity.SettingActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:99
+-keep class com.shange.mobilesave.activity.Setup1Activity { <init>(...); }
+
+# view AndroidManifest.xml #generated:101
+-keep class com.shange.mobilesave.activity.Setup2Activity { <init>(...); }
+
+# view AndroidManifest.xml #generated:103
+-keep class com.shange.mobilesave.activity.Setup3Activity { <init>(...); }
+
+# view AndroidManifest.xml #generated:105
+-keep class com.shange.mobilesave.activity.Setup4Activity { <init>(...); }
+
+# view AndroidManifest.xml #generated:97
+-keep class com.shange.mobilesave.activity.SetupOverActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:121
+-keep class com.shange.mobilesave.activity.SoftManagerActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:73
+-keep class com.shange.mobilesave.activity.SplashActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:95
+-keep class com.shange.mobilesave.activity.TestActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:117
+-keep class com.shange.mobilesave.activity.ToastLocationActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:145
+-keep class com.shange.mobilesave.activity.TrafficActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:165
+-keep class com.shange.mobilesave.receiver.BootReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:178
+-keep class com.shange.mobilesave.receiver.DeviceAdminSampleReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:191
+-keep class com.shange.mobilesave.receiver.MyAppWidgetProvider { <init>(...); }
+
+# view AndroidManifest.xml #generated:170
+-keep class com.shange.mobilesave.receiver.SmsReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:210
+-keep class com.shange.mobilesave.service.AddressService { <init>(...); }
+
+# view AndroidManifest.xml #generated:212
+-keep class com.shange.mobilesave.service.BlackNumberService { <init>(...); }
+
+# view AndroidManifest.xml #generated:214
+-keep class com.shange.mobilesave.service.LocationService { <init>(...); }
+
+# view AndroidManifest.xml #generated:216
+-keep class com.shange.mobilesave.service.LockCleanService { <init>(...); }
+
+# view AndroidManifest.xml #generated:208
+# view AndroidManifest.xml #generated:218
+-keep class com.shange.mobilesave.service.LockScreenService { <init>(...); }
+
+# view AndroidManifest.xml #generated:220
+-keep class com.shange.mobilesave.service.WatchDogService { <init>(...); }
+
+# view res/layout/activity_home.xml #generated:32
+-keep class com.shange.mobilesave.view.FocusTextView { <init>(...); }
+
+# view res/layout/activity_setting.xml #generated:28
+# view res/layout/activity_setting.xml #generated:32
+-keep class com.shange.mobilesave.view.SettingClickView { <init>(...); }
+
+# view res/layout/activity_setting.xml #generated:12
+# view res/layout/activity_setting.xml #generated:20
+# view res/layout/activity_setting.xml #generated:36
+# view res/layout/activity_setting.xml #generated:44
+# view res/layout/activity_setup2.xml #generated:20
+-keep class com.shange.mobilesave.view.SettingItemView { <init>(...); }
+
+# view AndroidManifest.xml #generated:147
+-keep class net.youmi.android.AdBrowser { <init>(...); }
+
+# view AndroidManifest.xml #generated:158
+-keep class net.youmi.android.AdReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:153
+-keep class net.youmi.android.AdService { <init>(...); }
+
+# onClick res/layout/activity_setup1.xml #generated:95
+-keepclassmembers class * { *** nextPage(...); }
+

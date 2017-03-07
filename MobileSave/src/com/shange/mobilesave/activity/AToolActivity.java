@@ -82,7 +82,7 @@ public class AToolActivity extends Activity {
 		//1,创建一个带进度条的对话框
 		final ProgressDialog progressDialog = new ProgressDialog(this);
 
-		progressDialog.setIcon(R.drawable.ic_launcher);
+		progressDialog.setIcon(R.drawable.ic_launcher1);
 
 		progressDialog.setTitle("短信备份");
 		//2,指定进度条的样式为水平
